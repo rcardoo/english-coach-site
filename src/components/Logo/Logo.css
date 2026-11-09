@@ -1,0 +1,22 @@
+.logo {
+  --logo-w: 96px;
+  --img-w: calc(var(--logo-w) / 0.9);
+  display: inline-block;
+  overflow: hidden;
+  width: var(--logo-w);
+  height: calc(var(--img-w) * 0.75 * 0.51);
+  line-height: 0;
+}
+
+.logo img {
+  display: block;
+  width: var(--img-w);
+  height: auto;
+  max-width: none;
+  margin-left: calc(var(--img-w) * -0.06);
+  margin-top: calc(var(--img-w) * 0.75 * -0.27);
+  mix-blend-mode: multiply;
+}
+
+.logo--md { --logo-w: 96px; }
+.logo--lg { --logo-w: 124px; }

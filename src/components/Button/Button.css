@@ -1,0 +1,36 @@
+.button {
+  --button-bg: var(--ec-primary);
+  --button-bg-hover: var(--ec-primary-dark);
+  --button-color: #fff;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: var(--button-bg);
+  color: var(--button-color);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  color: var(--button-color);
+  background: var(--button-bg-hover);
+}
+
+.button--sm {
+  min-height: 40px;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.8125rem;
+}
+
+.button--md {
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9375rem;
+}

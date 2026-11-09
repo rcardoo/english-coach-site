@@ -1,0 +1,10 @@
+.plans__lead {
+  max-width: 420px;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--ec-muted);
+}
+
+@media (width < 992px) {
+  .plans__cta { width: 100%; }
+}
